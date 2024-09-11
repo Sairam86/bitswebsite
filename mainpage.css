@@ -1,0 +1,114 @@
+ *{
+ margin: 0px;
+ padding: 0px;
+ }
+ .obox{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+ }
+ #inbox1,#inbox2{
+    border: solid 1px;
+    height: 150px;
+ }
+ #inbox1{
+    width: 150px;
+ }
+ #inbox2{
+    width: 1800px;
+    text-align: center;
+ }
+ #clgname{
+    font-size: 65px;
+    color: red;
+ }
+ #scroll{
+   font-size: 40px;
+   font-weight: bold;
+   color: blue;
+ }
+ #navbox{
+   border: solid 1px;
+   height: 60px;
+ }
+ ul li{
+border:solid 1px;
+height: 60px;
+width: 148px;
+float: left;
+text-align: center;
+line-height: 50px;
+background-color: #2797b6;
+margin-right: 1px;
+margin-bottom: 1px;
+border-radius: 5px;
+ }
+ ul{
+   list-style: none;
+ }
+ ul li a{
+   color: white;
+   font-size: 21px;
+   text-decoration: none;
+ }
+ ul li ul li{
+   display: none;
+ }
+ ul li:hover ul li{
+   display: block;
+ }
+ ul li:hover{
+   background-color: red;
+ }
+ .outerbox{
+  border: solid 1px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+ }
+ #in1,#in2,#in3{
+  border: solid 1px;
+  height: 300px;
+  z-index: -01;
+ }
+ #in1{
+  width: 600px;
+  background-image: url(bits.jpg);
+  background-repeat: no-repeat;
+  background-size: 600px 300px;
+  animation-name: imgchange;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+ }
+ @keyframes imgchange{
+  10%{
+  background-image: url(nspt.jpg)
+ }
+ 20%{
+  background-image: url(logo.jpg);
+ }
+ 30%{
+  background-image: url(laknepally.jpg);
+ }
+ 40%{
+  background-image: url(balaji.jpg); 
+ }
+ 50%{
+  background-image: url(bitsssss.jpg);
+ }
+ 60%{
+  background-image: url(mainblock.jpg);
+ }
+}
+ #in2,#in3{
+  width: 250px;
+ }
+ #placebox{
+  border: solid 1px;
+  height: 250px;
+ }
+ #placements{
+  text-align: center;
+  font-size: 60px;
+  color: #663399;
+ }
